@@ -1,0 +1,27 @@
+{
+  "name": "studion",
+  "version": "0.0.1",
+  "description": "Homepage for studion",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreRolimDias/studion.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "AndreRolimDias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreRolimDias/studion/issues"
+  },
+  "homepage": "https://github.com/AndreRolimDias/studion#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
