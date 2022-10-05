@@ -73,6 +73,10 @@ ul {
     text-decoration: none;
 }
 
+.navbar__links a.active {
+    color: var(--color-primary);
+}
+
 .navbar__links a:hover {
     color: var(--color-primary);
 }
@@ -88,6 +92,12 @@ ul {
 .logo-studion__subtitle {
     font-size: .875rem;
     font-weight: 300;
+}
+
+.logo-studion a {
+    text-decoration: none;
+    color: #fff;
+
 }
 
 .copy--primary {
@@ -369,4 +379,5 @@ ul {
     font-size: .875rem;
     font-weight: 300;
     margin: 2.5rem 0;
-}
+}    
+
