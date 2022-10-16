@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container__man__enterprise {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  padding-left: 2rem;
+}
+
+.man__enterprise__copy h3 {
+  font-size: 1.5625rem;
+  font-weight: 700;
+  font-family: "montserrat";
+  color: #333333;
+  padding-top: 7.1875rem;
+  padding-bottom: 2.1875rem;
+  padding-left: 12rem;
+  padding-right: 12rem;
+}
+.man__enterprise__copy p {
+  font-size: 1.0625rem;
+  font-weight: 400;
+  font-family: "roboto";
+  color: #333333;
+  align-items: center;
+  padding-top: 2.625rem;
+  padding-left: 12rem;
+  padding-right: 20rem;
+}
+
+.image__enterprise__man {
+  position: absolute;
+  height: 50.125rem;
+  width: 30.125rem;
+  left: 51.75rem;
+  top: 43.595rem;
+}
+.icons__brands {
+  background-color: #ffc501;
+  width: 81.9rem;
+}
+.brands__copy h4 {
+  text-align: center;
+  padding: 4.375rem 5.1875rem;
+  margin-top: 13rem;
+}
+
+.movie {
+  position: relative;
+  left: 4rem;
+  margin: 4.75rem 0 5.375rem;
+}

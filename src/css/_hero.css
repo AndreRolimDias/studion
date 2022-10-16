@@ -32,3 +32,6 @@
   line-height: 1.875rem;
   color: var(--color-copy--alt);
 }
+.image__enterprise__man {
+  object-position: right;
+}
