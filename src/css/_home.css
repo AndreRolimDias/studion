@@ -8,7 +8,7 @@
   color: #fff;
 }
 
-#slider {
+.slider {
   padding: var(--defaut-padding);
   background-color: #000;
   color: #fff;

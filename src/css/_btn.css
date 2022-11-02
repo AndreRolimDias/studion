@@ -14,8 +14,8 @@
 .btn:hover,
 .btn:active,
 .btn:focus,
-.btn--institutional,
-.btn--contact {
+.btn--go,
+.btn--institutional {
   border-color: var(--color-primary);
   background-color: var(--color-primary);
   color: #fff;
@@ -23,7 +23,9 @@
 }
 
 .btn--institutional:hover,
-.btn--contact:hover {
+.btn--contact:hover,
+.btn--go:hover,
+.btn--ticket:hover {
   color: var(--color-copy);
   background: unset;
   box-shadow: 0 1rem 1rem #0006;
