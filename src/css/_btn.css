@@ -32,6 +32,10 @@
   /* x, y, blur, cor */
 }
 
+.slick-prev {
+  left: -10rem;
+}
+
 .btn--contact:hover {
   color: #fff;
 }
