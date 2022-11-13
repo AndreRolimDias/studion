@@ -24,13 +24,9 @@ ul {
   padding-left: 0;
 }
 
-#counter {
-  margin: 0 0 0 0;
-}
-
 .container {
   max-width: 1140px;
-  margin: 0 auto;
+  margin: -0.35rem auto;
 }
 
 .logo-studion {

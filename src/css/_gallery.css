@@ -1,7 +1,4 @@
-.gallery__background {
-  width: 100%;
-}
-
+/*posição e estilo do texto small*/
 .check__photos {
   font-size: 0.9375rem;
   font-weight: 400;
@@ -11,8 +8,9 @@
   padding-bottom: 2rem;
 }
 
+/*posição e estilo das imagens da galeria*/
 .Photobook {
   position: static;
   width: 100%;
-  margin: 0 0 -0.25rem 0;
+  margin: -1rem 0 -0.25rem 0;
 }

@@ -1,3 +1,4 @@
+/*estilo e posição da caixa de informação e formulario*/
 .contact {
   display: grid;
   grid-template-columns: 1fr 1fr;
