@@ -1,3 +1,4 @@
+/*inicio da posição e estilo do rodapé*/
 .footer {
   background-color: #000;
   color: #fff;
@@ -10,16 +11,20 @@
   align-items: center;
   padding: 5.25rem 0 6.75rem 0;
 }
+/*final da posição e estilo do rodapé*/
 
+/* posição e estilo do logo */
 .footer .logo-studion {
   justify-self: start;
   margin: 0;
 }
 
+/* posição e estilo do subtitulo (eventos) do logo*/
 .logo-studion__subtitle {
   display: block;
 }
 
+/* inicio da posição e estilo do formulario de email*/
 .footer__form {
   display: grid;
   place-items: center;
@@ -67,7 +72,9 @@
   color: #fff;
   background-color: var(--color-copy);
 }
+/* final da posição e estilo do formulario de email*/
 
+/* inicio posição e estilo dos icones font awesome das redes sociais*/
 .footer__social {
   justify-self: end;
 }
@@ -83,12 +90,15 @@
 .footer__social a:active .fa-twitter {
   color: #000;
 }
+/*final posição e estilo dos icones font awesome das redes sociais*/
 
+/*posição e estilo do traço hr*/
 .footer hr {
   border-color: #fff4;
   margin: 0;
 }
 
+/*posição e estilo do texto paragrafo*/
 .footer p {
   text-align: center;
   font-size: 0.875rem;

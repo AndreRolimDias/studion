@@ -1,3 +1,9 @@
+/*posição image backgroud*/
+.testimonials__backgroud {
+  width: 100%;
+}
+
+/*posição e estilo do texto menção small*/
 .mentions {
   font-size: 0.9375rem;
   font-weight: 400;
@@ -6,6 +12,8 @@
   color: var(--color-primary);
   padding-bottom: 5rem;
 }
+
+/*posição e estilo do texto depoimento h3*/
 .testimonials__copy {
   margin: 4rem 0;
   margin-bottom: 5rem;
@@ -15,7 +23,8 @@
   color: var(--color-primary);
 }
 
-.testimonials__p {
+/*posição e estilo do texto small*/
+.testimonials__text {
   width: 36.8125;
   height: 4.6875rem;
   font-size: 0.9315rem;
@@ -25,30 +34,27 @@
   font-family: "Montserrat";
 }
 
+/*posição e estilo dos slides com a biblioteca slick*/
 .background__hexagon {
-  position: static;
   width: 100%;
-  margin: 3.25rem 0 -0.25rem 0;
+  margin: 5rem 0 -0.25rem 0;
 }
 
-.name__information__testimonials {
-  background-color: var(--color-primary);
-  margin-top: 0;
-}
-
+/*posição e estilo do texto h2 nome do depoente*/
 .name__testimonials {
+  background-color: var(--color-primary);
   text-align: center;
   letter-spacing: -0.1rem;
-  r-spacing: -0.1rem;
   line-height: 7.5rem;
   font-size: 3.125rem;
-  font-weight:700
-  font-family: "Montserrat";
+  font-weight: 700;
   color: #000000;
-  margin: 0 0 -5rem 0;
+  margin: -19rem 0 -5rem 0;
 }
 
-.ceo {
+/*posição e estilo do texto small da ocupação profissional do depoente*/
+.occupation {
+  background-color: var(--color-primary);
   font-size: 0.875rem;
   text-transform: uppercase;
   letter-spacing: 0.1875rem;
@@ -58,6 +64,8 @@
   font-family: "Montserrat";
   margin: 0 0 0 712px;
 }
+
+/*posição e estilo do texto small empresa do depoente*/
 .enterprise__testimonials {
   font-size: 14px;
   letter-spacing: 0.1875rem;
@@ -67,7 +75,9 @@
   font-family: "Montserrat";
 }
 
+/*posição e estilo do caractere ( “ )*/
 .caractere {
+  background-color: var(--color-primary);
   text-align: center;
   font-size: 5.25rem;
   letter-spacing: -3px;
@@ -78,25 +88,33 @@
   margin: -3rem 0 -2rem 0;
 }
 
-.text__testimonials {
-  width: 37.125rem;
-  color: #000;
-  font-size: 15px;
-  font-weight: 500;
-  line-height: 30px;
-  text-align: center;
-  font-family: "Montserrat";
+/*posição e estilo do testo paragrafo do depoente*/
+.slider__testimonials p {
   background-color: var(--color-primary);
-  margin: 0 0 0 21.875rem;
-}
-
-.point__white {
-  font-size: 110px;
-  color: #fff;
-  text-align: center;
-  margin: -2.5rem 0 0 0;
-}
-
-.point__black {
+  height: 5.625rem;
+  width: 92.4375rem;
   color: #000;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  line-height: 1.875rem;
+  text-align: center;
+  margin: -3rem 0 1.375rem -6rem;
 }
+
+/*inicio posição e estilo dos dots do slide com a biblioteca slick*/
+.slick-dots li button:before {
+  font-size: 1.5rem;
+  margin-top: 1.25rem;
+  opacity: unset;
+  color: #fff;
+}
+
+.slick-dots li {
+  padding: 1.25rem;
+}
+
+.slick-dots {
+  background-color: var(--color-primary);
+  margin: 0 0 0 0;
+}
+/*final posição e estilo dos dots do slide com a biblioteca slick*/
