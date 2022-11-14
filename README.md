@@ -6,7 +6,7 @@ Esse projeto foi construído na base do curso de Full-Stack-Developer
 
 <a href="#"><img alt="imagine" src="https://img.shields.io/badge/Imagine School-F15B2A.svg?logo=Pluralsight&logoColor=white"></a>
 
-### ⚡Link do projeto: https://andrerolimdias.github.io/studion/events.html
+### ⚡Link do projeto: https://andrerolimdias.github.io/studion/index.html
 
 <div align="center">
 
