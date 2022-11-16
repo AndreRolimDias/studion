@@ -12,6 +12,21 @@
   transition: 0.5s all ease;
 }
 
+.btn__btn_slide {
+  cursor: pointer;
+  padding: 1rem 2.5rem;
+  border: 0.125rem solid #fff;
+  border-radius: 5rem;
+  color: var(--color-primary);
+  background: unset;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s all ease;
+  margin: 0 0 12.5rem 0;
+}
+
+.btn__btn_slide:hover,
 .btn:hover,
 .btn:active,
 .btn:focus,
@@ -30,6 +45,21 @@
   color: var(--color-copy);
   background: unset;
   box-shadow: 0 1rem 1rem #0006;
+}
+
+/*Responsividade Mobile*/
+.btn--institutional,
+.btn--quote {
+  display: block;
+  margin: 0 auto;
+}
+
+/*Responsividade Desktop*/
+@media screen and (min-width: 1280px) {
+  .btn--institutional,
+  .btn--quote {
+    display: inline;
+  }
 }
 
 /*posição das setas dos slides slick*/
