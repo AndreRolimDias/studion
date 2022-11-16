@@ -5,18 +5,38 @@
   padding: 0 1rem;
 }
 
+/*responsividade Mobile*/
 .footer__container {
   display: grid;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: unset;
+  grid-template-rows: auto;
+  gap: 3rem;
   align-items: center;
-  padding: 5.25rem 0 6.75rem 0;
+  padding: 3rem 0;
 }
+/*responsividade Desktop*/
+@media screen and (min-width: 1280px) {
+  .footer__container {
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: unset;
+    padding: 5.25rem 0 6.75rem 0;
+  }
+}
+
 /*final da posição e estilo do rodapé*/
 
 /* posição e estilo do logo */
+/*responsividade Mobile*/
 .footer .logo-studion {
-  justify-self: start;
+  justify-self: center;
   margin: 0;
+}
+
+/*responsividade Desktop*/
+@media screen and (min-width: 1280px) {
+  .footer .logo-studion {
+    justify-self: start;
+  }
 }
 
 /* posição e estilo do subtitulo (eventos) do logo*/
@@ -25,11 +45,19 @@
 }
 
 /* inicio da posição e estilo do formulario de email*/
+/*responsividade Mobile*/
 .footer__form {
   display: grid;
   place-items: center;
-  grid-template-columns: 10ch auto;
+  grid-template-columns: unset;
   gap: 0.25rem;
+}
+
+/*responsividade Desktop*/
+@media screen and (min-width: 1280px) {
+  .footer__form {
+    grid-template-columns: 10ch auto;
+  }
 }
 
 .footer__form label {
@@ -38,10 +66,19 @@
   text-align: center;
 }
 
+/*responsividade Mobile*/
 .footer__email {
   display: grid;
   grid-template-columns: auto 3.75rem;
   width: 100%;
+  margin: 0 1rem;
+}
+
+/*responsividade Desktop*/
+@media screen and (min-width: 1280px) {
+  .footer__email {
+    padding: 0;
+  }
 }
 
 .footer__form input {
@@ -75,8 +112,16 @@
 /* final da posição e estilo do formulario de email*/
 
 /* inicio posição e estilo dos icones font awesome das redes sociais*/
+/*responsividade Mobile*/
 .footer__social {
-  justify-self: end;
+  justify-self: center;
+}
+
+/*responsividade Desktop*/
+@media screen and (min-width: 1280px) {
+  .footer__social {
+    justify-self: end;
+  }
 }
 
 .footer__social a,
