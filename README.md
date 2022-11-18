@@ -12,12 +12,11 @@ Esse projeto foi construído na base do curso de Full-Stack-Developer
 
 ## 📽️Apresentação
 
-![home page gif1](https://github.com/AndreRolimDias/studion/blob/master/home%20page%20gif.gif)
+<img  alt="home page gif" height="300" width="500" src="https://github.com/AndreRolimDias/studion/blob/master/home%20page%20gif.gif">
 
 ### 📈Loading: 95% projeto em construção 
  
-
-![home page gif2](https://github.com/AndreRolimDias/studion/blob/master/home%20page%20gif2.gif)
+<img  alt="home page gif2" height="300" width="500" src="https://github.com/AndreRolimDias/studion/blob/master/home%20page%20gif2.gif">
 
 
 ## 📱Mobile
