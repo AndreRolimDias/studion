@@ -19,12 +19,22 @@ Esse projeto foi construído na base do curso de Full-Stack-Developer
 
 ![home page gif2](https://github.com/AndreRolimDias/studion/blob/master/home%20page%20gif2.gif)
 
+
+## 📱Mobile
+
+<img alt='HTML5' height="450" width="200" src='https://github.com/AndreRolimDias/studion/blob/master/_design/mobile.gif'>
+
 ## 🚀Tecnologias usadas no projeto:
 
 <div style="display: inline_block"><br/>
- <img align="center" alt="Andre-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-<img align="center" alt="Andre-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-<img align="center" alt="Rafa-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+
+<img alt='HTML5' height="30" width="80" src='https://img.shields.io/badge/HTML5-E34F26.svg?logo=html5&logoColor=white'>
+
+<img alt='CSS3' height="30" width="80" src='https://img.shields.io/badge/CSS3-005FED.svg?logo=css3&logoColor=white'>
+
+<img alt='JavaScript' height="30" width="90" src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?logo=javascript&logoColor=black'>
+
+<img alt='JQuery' height="30" width="80" src='https://img.shields.io/badge/jQuery-0769AD.svg?logo=jquery&logoColor=white'>
 
 </div>
 
