@@ -34,15 +34,16 @@
 .image__enterprise__man {
   position: absolute;
   height: auto;
-  width: 30.125rem;
+  width: 29.56rem;
   left: 51.7rem;
-  top: 39.6rem;
+  top: 40.4rem;
 }
+
 /*posição e estilo logo das marcas */
 .icons__brands {
   background-color: #ffc501;
   width: 100%;
-  margin: auto;
+  padding: 0 0.75rem 0 0.75rem;
 }
 
 /*estilo do logo das marcas texto h4*/
